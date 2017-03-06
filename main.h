@@ -265,7 +265,7 @@ void MRPR_PacketForwardingAlgorithm(int eIndex);
 void departurePacketProcessing(int iEvent);
 void generateArrivalEventsForNeighbors(int eIndex);
 vector<NeighborNode> scanNeighbors(int nodeID, int txRange);
-bool determineSendingSuccessByModels(float nodeDistance, bool printValue, float &transProb); // ¦Ì¦Ì¦Ì
+bool determineSendingSuccessByModels(float nodeDistance, bool printValue, float &transProb); // 2017.03.06
 bool checkReceivedPacketHeader(EventItem currentEvent);
 void removeEvents(int numberOfProcessedEvents);
 int removeCollisionEvents(int nEvents);
